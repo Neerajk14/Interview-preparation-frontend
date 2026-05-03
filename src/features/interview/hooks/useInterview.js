@@ -86,7 +86,7 @@ console.log(error);
  
 const deleteReport =async (reportId)=>{
   try {
-    const res = await fetch(`https://job-ready.up.railway.app/api/interview/${reportId}`, {
+    const res = await fetch(`https://job-ready-815l.onrender.com/api/interview/${reportId}`, {
       method: "DELETE",
       credentials: "include"    
     });

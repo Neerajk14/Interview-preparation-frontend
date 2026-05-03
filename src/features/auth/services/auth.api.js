@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://job-ready.up.railway.app",
+  baseURL: "https://job-ready-815l.onrender.com",
   withCredentials: true,
 });
 
